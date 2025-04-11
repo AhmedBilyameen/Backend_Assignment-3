@@ -5,7 +5,7 @@ const age = 25;
 const indigene = "Gombe State";
 const isMarried = false; 
 
-//I am goint to Create a sentence using string concatenation
+//Creating a sentence using string concatenation
 const sentence = "My name is " + fName + " " + lName + ". I am " + age + " years old and I am an indigene of " + indigene + ".";
 console.log(sentence);
 
@@ -22,16 +22,8 @@ console.log(quote.toUpperCase());
 // Convertign to lowercase
 console.log(quote.toLowerCase());
 
-
 let word = "BACKEND CLASS";
 console.log("Word to be reverse: ", word);
-
-// let reversedWord = ""; // Empty string to store the result
-
-// Loop from the last character to the first, 
-// for (let i = word.length - 1; i >= 0; i--) {
-//   reversedWord += word[i];
-// }
 
 // converting the word to an array using split method
 let newArr = word.split("");
@@ -41,8 +33,6 @@ newArr.reverse();
 const reverseWord = newArr.join("");
 
 console.log("The new reversed word: ", reverseWord);// print the reversed word to the console.
-
-// console.log(reversedWord); 
 
 
 // Prices of three items
@@ -82,11 +72,6 @@ fav_Foods.push("Spaghetti");
 // Displaying updated food list
 console.log("Updated food list:", fav_Foods);
 
-//displaying the list with a loop
-// for (let i = 0; i < fav_Foods.length; i++) {
-//     const print = fav_Foods[i];
-//     console.log(print);
-// }
 
 
 // Array of jssOne
